@@ -14,10 +14,10 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-one`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-one`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -205,5 +205,12 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+As I read the article I was reminding of my experience growing up in Costa Rica with just one last name. I was born here, and moved to Costa Rica for the first 15 years of my life. 
+Having been born here meant that unlike my peers in Costa Rica, I did not have my mom's last name, which is something I was constantly reminded of growing up. There were instances where their system was able to accept NULL under the
+second last name category while in other systems I was registered as SOTO, SOTO. My brother was born in Costa Rica, so he did have both last names. So there were instances where my name wouldn't come up in the school system along with my brother
+as we were not technically part of the same unit. I recently went back to get some papers of mine sorted and the front desk lady coudln't find my health code ID, as apparently the system had changed and now they did allow for NULLs but my file had not 
+been updated during the change so I was still registered as Soto, Soto. It wasn't until someone who had worked at the office before the change happened that they were able to find my file. I had never really considered why me having just one last name was such
+a problem in their files, but I realize now that their databases must've been set to require a value. Luckily, I was never denied care unlike the experiences described in the article, but this article opened my eyes to see how social structures are embedded in databases.
+It is clear that in Costa Rica, it was expected that I would have two last names, from each of my parents. I wonder what the experience of single mothers mustve been, I don't believe they were denied care for their children as luckily someone at some point had made it okay to
+sign up children with a single last name using the first one twice. However, this is a clear example of how the societal expectations in Costa Rica influenced the design of the database. 
 ```
