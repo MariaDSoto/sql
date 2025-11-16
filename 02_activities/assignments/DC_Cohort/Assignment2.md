@@ -14,10 +14,10 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-two`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-two`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -54,7 +54,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+My understanding is that Slowly Changing Dimensions is the use of two tables that track basically teh same information but one keeps the records (Type 2) while
+the other one receives the updated copy (Type 1). This way we are able to keep track of the customer's previous addreses in this case, rather than losing it that data
+every tiem there is a change. 
 ```
 
 ***
@@ -183,5 +185,15 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+There were a lot of interesting concepts that came to mind as I read the article. There were severa ethical issues. Even though, it was helpful and efficient to use mechanical Amazon Turk
+to classify those images, it was a moment where the effect globalization on labour and renumeration was evident. The people working on Amazon Turk are likely from low income countries, and
+are being paid very little to complete the monotomous task. This serves as a clear example of the exploitation of labour. 
+As someone that is currently working on creating my own dataset to try for future machine learning, I have been recently been pondering a lot about the quality of data we use to build these models, it
+worries me that any error would be amplified in the final model. This brings to mind the current issues we face regarding AI art, or any creative work, it has been disheartening to see people's work be stolen,
+and the. disconnect from the public to realize that just because AI can do it, it doesn't make it easier or pointless to do it yourself, or acquire a piece of art from an actual artist. 
+One last thing that came to mind, relates back to moderating the content that goes into models, people can be ruthless and cruel when no one is watching. Toxicity towards humans in already a problem in the internet,
+I'd imagine some people might be much worse when they know they are talking to a bot. This may for one give them the false sense that it is okay to communicate themselves in such a way, and also could influence the sort of
+data available for models to train on.
+Overall, this was a thought-provoking article on the deeply intertwinned relationship between human nature and AI models. Since it is all human, and we are full of ethical concerns LOL, it should be expected that
+an model without morals would generate all these ethical concerns. 
 ```
